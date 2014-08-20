@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.geekfrikinert.pixelfromimage.testapp.MainActivity" >
+
+    <TextView
+        android:id="@+id/lblColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btnLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblColor"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/lblColor"
+        android:text="Launch Picker" />
+
+</RelativeLayout>
